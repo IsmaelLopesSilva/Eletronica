@@ -1,0 +1,47 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal -160 -208 160 288
+TEXT 0 0 Center 2 LT
+WINDOW 0 0 -80 Center 2
+WINDOW 3 0 80 Center 2
+SYMATTR Value LTC4420
+SYMATTR Prefix X
+SYMATTR SpiceModel LTC4420.sub
+SYMATTR Value2 LTC4420
+SYMATTR Description 18V Dual Input µPower PowerPath Prioritizer with Backup Supply Monitoring
+PIN -160 -160 LEFT 8
+PINATTR PinName V1
+PINATTR SpiceOrder 1
+PIN -160 0 LEFT 8
+PINATTR PinName Cmp1
+PINATTR SpiceOrder 2
+PIN -160 -80 LEFT 8
+PINATTR PinName Adj
+PINATTR SpiceOrder 3
+PIN 0 288 BOTTOM 4
+PINATTR PinName Gnd
+PINATTR SpiceOrder 4
+PIN 160 -64 RIGHT 8
+PINATTR PinName Cmpout1
+PINATTR SpiceOrder 5
+PIN 160 -160 RIGHT 8
+PINATTR PinName Out
+PINATTR SpiceOrder 8
+PIN -160 160 LEFT 8
+PINATTR PinName v2uv
+PINATTR SpiceOrder 11
+PIN -160 80 LEFT 8
+PINATTR PinName V2
+PINATTR SpiceOrder 10
+PIN -160 240 LEFT 8
+PINATTR PinName Gndsw
+PINATTR SpiceOrder 12
+PIN 160 32 RIGHT 8
+PINATTR PinName V2ok
+PINATTR SpiceOrder 7
+PIN 160 128 RIGHT 8
+PINATTR PinName _v2dis
+PINATTR SpiceOrder 9
+PIN 160 224 RIGHT 8
+PINATTR PinName v2test
+PINATTR SpiceOrder 6
