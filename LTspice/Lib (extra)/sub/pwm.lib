@@ -1,0 +1,14 @@
+*	pulse width modulator
+*	
+*	Parameters:
+*	f : frequency of generated PWM signal
+*	Vhigh : High level of generated PWM signal
+*	Vlow : Low level of generated PWM signal
+*	Range : range in which the input signal may vary, 0V gives 0% duty-cycle, 
+*		<Range> V gives 100% duty-cycle
+*		When the input signal goes outside Range, there is no problem only the duty-cycle 
+*		saturates to 0% or 100%
+.subckt pwm IN OUT GND
+Bout GND OUT I=if(((Time-floor(Time*f)/f)*Range*f) < v(IN,GND), Vhigh, Vlow)
+Rout OUT GND 1
+.ends
