@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Green Pill-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5E5C62CE
 P 3000 4950
 F 0 "J1" H 3014 5673 50  0000 C CNN
 F 1 "10103594-0001LF" H 3014 5582 50  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 3200 5150 60  0001 L CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10103594-0001LF" H 3200 5150 60  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 3200 5250 60  0001 L CNN
 F 4 "609-4050-1-ND" H 3200 5350 60  0001 L CNN "Digi-Key_PN"
 F 5 "10103594-0001LF" H 3200 5450 60  0001 L CNN "MPN"
